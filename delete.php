@@ -5,5 +5,5 @@
 
 	mysqli_query($koneksi, "DELETE FROM tbl_crud WHERE id='$id'");
 
-	header("location: user_page.php");
+	header("location: admin_page.php");
 ?>

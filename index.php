@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	if($_SESSION){
+	if($_SESSION) {
 		if($_SESSION['level']=="Administrator") {
 			header("location: admin_page.php");
 		}
@@ -8,7 +8,9 @@
 			header("location: user_page.php");
 		}
 	}
+	// ini adalah komentar
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -20,6 +22,7 @@
 		<style>
 			body {
 				background-color:#eee;
+				margin: 0;
 			}
 			.row {
 				margin:100px auto;
